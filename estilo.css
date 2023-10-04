@@ -1,0 +1,98 @@
+body{
+    background-color: #deb1f1;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cabeçalho{
+    background-image: url(imagens/espaço.jpg);
+    height: 600px;
+    background-size: cover;
+    padding-top: 1px;
+    background-attachment:fixed
+}
+
+.div-cabeçalho{
+   /* background-color: #f4a4c9;*/
+    margin: 100px auto 0 auto;
+    width: 80%;
+    color: #fff;
+    text-align: center;
+}
+.div-cabeçalho h1{
+    font-size: 50px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px rgb(0, 0, 0, 5);
+}
+.div-cabeçalho a{
+    background-color:#f4a4c9;
+    color: #a46dbe;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+.div-cabeçalho a:hover{
+    background-color: #a46dbe;
+    color: #f4a4c9;
+}
+.cabeçalho nav ul{
+    margin: 25px 40px 0 0;
+    text-align: right;
+}
+.cabeçalho nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 12px;
+}
+article h2{
+    background-color: #b686ca;
+    color: #624973;
+    margin-top: 0;
+    text-align: center;
+}
+.config-img {
+    height: 60px;
+    max-width: 100%; 
+    float: left;
+    padding-right: 5px;
+}
+
+.config-img:hover {
+    transform: scale(1.1);
+}
+
+.cabeçalho nav a{
+    color: #fff;
+    text-decoration: none;
+    background-color: #CD3999;
+    padding: 5px;
+    border-radius: 5px;
+}
+.cabeçalho nav a:hover{
+    background-color: #fff;
+    color: #CD3999;
+}
+main{
+    width: 90%;
+    margin: auto;
+}
+
+section{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+article{
+    background-color: #ffffff;
+    padding: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+footer{
+    text-align: center;
+}
